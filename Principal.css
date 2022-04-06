@@ -1,0 +1,76 @@
+                                                                     /*ESTIL MAIN*/
+
+main{
+    color: #FFFFFF;
+    padding: 5%;
+    width: 100%;
+    width: fit-content;
+    display: flex;
+    background-color: #010020;
+}
+                                                                     /*TEXT CENTRAL*/
+.maintextesquerra {
+    height: 100%;
+    min-width: 300px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 160px;
+    margin-right: 30px;
+}
+
+.maintextmusicfor {
+    font-size: 65px;
+    font-weight: 400;
+}
+
+.maintexteveryone {
+    color: #FFFFFF;
+    font-size: 65px;
+    font-weight: 400;
+    margin-top: -10px;
+}
+
+.maintextsmall {
+    margin-top: 20px;
+    font-size: 18px;
+    opacity: 0.3;
+}
+                                                                     /*BOTÓ CENTRAL*/
+main button {
+    color: #FFFFFF;
+    background-color: #01F382;
+    width: 220px;
+    height: 60px;
+    font-weight:bold;
+    font-size: 20px;
+    border-radius: 45px;
+    border-color: #01F382;
+    border-style: solid;
+    text-decoration: none;
+    margin-top: 40px;
+}
+
+main button:hover{
+    background-color: #bb01f3;
+    border-color: #bb01f3;
+}
+
+main button:active{
+    background-color: #8602a0;
+    border-color: #8602a0;
+    border-style:inherit;
+}
+                                                                     /*IMATGE CENTRAL*/
+.mainimatge {
+    height: 100%;
+    min-width: 420px;
+    display: flex;
+}
+
+main img {
+    max-height: 100%;
+    max-width: 100%;
+    display: block;
+    filter:drop-shadow(0px 2px 8px #ffffff);
+
+}
