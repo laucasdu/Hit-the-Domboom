@@ -1,0 +1,16 @@
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button {
+    width: 400px;
+    height:400px;
+    background-color: #333131;
+    padding: 16 px;
+    border-radius: 300px;
+    font-size: 61px;
+    line-height: 62px;
+    align-content: center;
+   
+    }
