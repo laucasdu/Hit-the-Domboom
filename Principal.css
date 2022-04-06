@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+
+body
+{
+margin: 0;
+font-family: 'Lato', sans-serif;;
+}
+
+nav
+{
+margin: 0;
+display: flex;
+justify-content: space-around;
+align-items: center;
+background-color: #010020;
+padding-left: 20px;
+padding-right: 20px;
+height: 100px;
+font-weight: bold ;
+}
+
+nav ul li
+{
+display: inline;
+color: white;
+padding: 30px;
+}
+
+a
+{
+text-decoration: none;
+}
+
+.buttongreen
+{
+color: green;
+border-right: 1px solid white
+}
