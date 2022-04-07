@@ -126,6 +126,18 @@ main img {
     z-index: -1;  
 }
 
+.PADBIG_4 {
+    z-index: 2;
+    position: absolute;
+    background-color: #01F382;
+    border-radius: 50%;
+    height: 160px;
+    width: 160px;
+    margin: 190px 0 0 255px;
+}
+
+
+
                                                                      /*ESTIL FOOTER*/
 
 .contenedor_footer{
