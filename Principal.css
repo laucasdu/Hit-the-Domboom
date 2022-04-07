@@ -126,6 +126,58 @@ main img {
     z-index: -1;  
 }
 
+main a{
+    position: absolute;
+}
+
+                                                                     /*PADS*/
+
+
+.PADBIG_1 {
+    z-index: 2;
+    position: absolute;
+    background-color: transparent;
+    border-color: transparent;    
+    border-radius: 50%;
+    height: 160px;
+    width: 160px;
+    margin: 15px 0 0 -300px;
+}
+
+.PADBIG_2 {
+    z-index: 2;
+    position: absolute;
+    background-color:transparent;
+    border-color: transparent;
+    border-radius: 50%;
+    height: 160px;
+    width: 160px;
+    margin: -185px 0 0 -207px;
+}
+
+.PADBIG_3 {
+    z-index: 2;
+    position: absolute;
+    background-color:transparent;
+    border-color: transparent;
+    border-radius: 50%;
+    height: 160px;
+    width: 160px;
+    margin: -185px 0 0 -22px;
+}
+
+.PADBIG_4 {
+    z-index: 2;
+    position: absolute;
+    background-color: transparent;
+    border-color: transparent;
+    border-radius: 50%;
+    height: 160px;
+    width: 160px;
+    margin: 15px 0 0 73px;
+}
+
+
                                                                      /*ESTIL FOOTER*/
 
 .contenedor_footer{
