@@ -56,17 +56,22 @@ main {
     line-height: 62px;
     align-content: center; 
     }
-    /*foot*/.contenedor_footer{
+
+    /*foot*/
+
+   
+    
+    .contenedor_footer{
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 100px;
 
 }
 
 h1{
     color: #fff;
     font-size: 30px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 p{
@@ -76,7 +81,6 @@ p{
     margin-top: -10px;
     color: #fff;
     flex-direction: column;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     opacity: .5;
     color: #fff;
 
@@ -89,14 +93,11 @@ p{
     margin-top: 15px;
     padding-top: 15px;
     flex-direction: column;
-    width: fit-content;
-    height: fit-content;
     border-radius: 80px;
     font-weight: bold;
     padding-bottom: 15px;
     padding-left: 30px;
     padding-right: 30px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
 
 }
 
@@ -109,6 +110,5 @@ p{
 
 .boton_footer:active{
     background-color: #01F382;
-    border-style: inherit;
     color: #ffff;
 }
