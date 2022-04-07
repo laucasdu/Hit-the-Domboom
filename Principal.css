@@ -53,7 +53,7 @@ main{
                                                                      /*TEXT CENTRAL*/
 .maintextesquerra {
     width: 40%;
-    min-width: 450px;
+    min-width: 500px;
     flex-direction: column;
     margin-left: 60px;
     margin-right: 30px;
@@ -126,22 +126,30 @@ main img {
     z-index: -1;  
 }
 
-main a{
-    position: absolute;
-}
 
                                                                      /*PADS*/
 
 
+main a{
+    position: absolute;
+}
+
+.mainimatge button {
+    background-color:transparent;
+    border-color: transparent;
+
+}
+
 .PADBIG_1 {
     z-index: 2;
+    display: inline-block;
     position: absolute;
-    background-color: transparent;
+    background-color:transparent;
     border-color: transparent;    
     border-radius: 50%;
     height: 160px;
     width: 160px;
-    margin: 15px 0 0 -300px;
+    margin: 15px 0 0 -269px;
 }
 
 .PADBIG_2 {
@@ -152,10 +160,21 @@ main a{
     border-radius: 50%;
     height: 160px;
     width: 160px;
-    margin: -185px 0 0 -207px;
+    margin: 15px 0 0 105px;
 }
 
 .PADBIG_3 {
+    z-index: 2;
+    position:absolute;
+    background-color:transparent;
+    border-color: transparent;
+    border-radius: 50%;
+    height: 160px;
+    width: 160px;
+    margin: -185px 0 0 -176px;
+}
+
+.PADBIG_4 {
     z-index: 2;
     position: absolute;
     background-color:transparent;
@@ -163,18 +182,51 @@ main a{
     border-radius: 50%;
     height: 160px;
     width: 160px;
-    margin: -185px 0 0 -22px;
+    margin: -185px 0 0 10px;
 }
 
-.PADBIG_4 {
+.PADSMALL_1 {
     z-index: 2;
     position: absolute;
-    background-color: transparent;
+    background-color:transparent;
     border-color: transparent;
     border-radius: 50%;
-    height: 160px;
-    width: 160px;
-    margin: 15px 0 0 73px;
+    height: 115px;
+    width: 115px;
+    margin: -235px 0 0 -372px;
+}
+
+.PADSMALL_2 {
+    z-index: 2;
+    position: absolute;
+    background-color:transparent;
+    border-color: transparent;
+    border-radius: 50%;
+    height: 115px;
+    width: 115px;
+    margin: -115px 0 0 -314px;
+}
+
+.PADSMALL_3 {
+    z-index: 2;
+    position: absolute;
+    background-color:transparent;
+    border-color: transparent;
+    border-radius: 50%;
+    height: 115px;
+    width: 115px;
+    margin: -115px 0 0 190px;
+}
+
+.PADSMALL_4 {
+    z-index: 2;
+    position: absolute;
+    background-color:transparent;
+    border-color: transparent;
+    border-radius: 50%;
+    height: 115px;
+    width: 115px;
+    margin: -235px 0 0 252px;
 }
 
 
