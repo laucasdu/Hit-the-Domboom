@@ -137,7 +137,11 @@ main a{
 .mainimatge button {
     background-color:transparent;
     border-color: transparent;
+}
 
+.mainimatge button:hover {
+    background-color: #252525;
+    border-color: #252525;
 }
 
 .PADBIG_1 {
@@ -154,17 +158,6 @@ main a{
 
 .PADBIG_2 {
     z-index: 2;
-    position: absolute;
-    background-color:transparent;
-    border-color: transparent;
-    border-radius: 50%;
-    height: 160px;
-    width: 160px;
-    margin: 15px 0 0 105px;
-}
-
-.PADBIG_3 {
-    z-index: 2;
     position:absolute;
     background-color:transparent;
     border-color: transparent;
@@ -172,6 +165,17 @@ main a{
     height: 160px;
     width: 160px;
     margin: -185px 0 0 -176px;
+}
+
+.PADBIG_3 {
+    z-index: 2;
+    position: absolute;
+    background-color:transparent;
+    border-color: transparent;
+    border-radius: 50%;
+    height: 160px;
+    width: 160px;
+    margin: -185px 0 0 10px;
 }
 
 .PADBIG_4 {
@@ -182,7 +186,7 @@ main a{
     border-radius: 50%;
     height: 160px;
     width: 160px;
-    margin: -185px 0 0 10px;
+    margin: 15px 0 0 105px;
 }
 
 .PADSMALL_1 {
