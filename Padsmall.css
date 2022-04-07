@@ -49,8 +49,8 @@ main {
 
 }
 .buttonHit {
-    width: 400px;
-    height:400px;
+    width: 200px;
+    height:200px;
     background-color: #333131;
     padding: 16 px;
     border-radius: 300px;
