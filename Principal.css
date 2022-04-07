@@ -159,7 +159,7 @@ main a{
 .PADBIG_2 {
     z-index: 2;
     position:absolute;
-    background-color:transparent;;
+    background-color:transparent;
     border-color: transparent;
     border-radius: 50%;
     height: 160px;
@@ -181,7 +181,7 @@ main a{
 .PADBIG_4 {
     z-index: 2;
     position: absolute;
-    background-color:transparent;;
+    background-color:transparent;
     border-color: transparent;
     border-radius: 50%;
     height: 160px;

@@ -55,6 +55,7 @@ main {
     font-size: 61px;
     line-height: 62px;
     align-content: center; 
+    color: #a19c9c;
     }
     /*foot*/.contenedor_footer{
     display: flex;
