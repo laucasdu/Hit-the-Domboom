@@ -144,7 +144,7 @@ main a{
     z-index: 2;
     display: inline-block;
     position: absolute;
-    background-color:transparent
+    background-color:transparent;
     border-color: transparent;    
     border-radius: 50%;
     height: 160px;
@@ -155,7 +155,7 @@ main a{
 .PADBIG_2 {
     z-index: 2;
     position: absolute;
-    background-color:transparent
+    background-color:transparent;
     border-color: transparent;
     border-radius: 50%;
     height: 160px;
@@ -166,7 +166,7 @@ main a{
 .PADBIG_3 {
     z-index: 2;
     position:absolute;
-    background-color:transparent
+    background-color:transparent;
     border-color: transparent;
     border-radius: 50%;
     height: 160px;
@@ -177,7 +177,7 @@ main a{
 .PADBIG_4 {
     z-index: 2;
     position: absolute;
-    background-color:transparent
+    background-color:transparent;
     border-color: transparent;
     border-radius: 50%;
     height: 160px;
@@ -188,7 +188,7 @@ main a{
 .PADSMALL_1 {
     z-index: 2;
     position: absolute;
-    background-color:transparent
+    background-color:transparent;
     border-color: transparent;
     border-radius: 50%;
     height: 115px;
@@ -199,7 +199,7 @@ main a{
 .PADSMALL_2 {
     z-index: 2;
     position: absolute;
-    background-color:transparent
+    background-color:transparent;
     border-color: transparent;
     border-radius: 50%;
     height: 115px;
@@ -210,7 +210,7 @@ main a{
 .PADSMALL_3 {
     z-index: 2;
     position: absolute;
-    background-color:transparent
+    background-color:transparent;
     border-color: transparent;
     border-radius: 50%;
     height: 115px;
@@ -221,7 +221,7 @@ main a{
 .PADSMALL_4 {
     z-index: 2;
     position: absolute;
-    background-color:transparent
+    background-color:transparent;
     border-color: transparent;
     border-radius: 50%;
     height: 115px;
