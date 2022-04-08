@@ -9,6 +9,11 @@ background-color: #010020;
 
                                                                      /*ESTIL HEADER*/
 
+.logohome:hover{
+    cursor: pointer;
+}
+
+
 nav
 {
 margin: 0;
@@ -78,28 +83,31 @@ main{
     opacity: 0.3;
 }
                                                                      /*BOTÓ CENTRAL*/
-main button {
-    color: #FFFFFF;
-    background-color: #01F382;
-    width: 220px;
-    height: 60px;
-    font-weight:bold;
-    font-size: 20px;
-    border-radius: 45px;
-    border-color: #01F382;
-    border-style: solid;
-    text-decoration: none;
-    margin-top: 40px;
+.button_hitthe {
+color: #FFFFFF;
+background-color: #01F382;
+width: 220px;
+height: 60px;
+font-weight:bold;
+font-size: 20px;
+border-radius: 45px;
+border-color: #01F382;
+border-style: solid;
+text-decoration: none;
+margin-top: 40px;
+transition: all 0.50s;
 }
 
-main button:hover{
+.button_hitthe:hover{
     background-color: #bb01f3;
     border-color: #bb01f3;
+    width: 280px;
+    cursor: pointer;
 }
 
-main button:active{
-    background-color: #8602a0;
-    border-color: #8602a0;
+.button_hitthe:active{
+    background-color: #720488;
+    border-color: #720488;
     border-style:inherit;
 }
                                                                      /*IMATGE CENTRAL*/
@@ -143,6 +151,7 @@ main a{
 .mainimatge button:hover {
     background-color: #252525;
     border-color: #252525;
+    border-style: solid; 
 }
 
 .PADBIG_1 {
@@ -274,18 +283,22 @@ p{
     padding-left: 30px;
     padding-right: 30px;
     margin-bottom: 30px;
-   
-
+    border-style: solid;
+    background-color: #FFFFFF;
+    border-color: #FFFFFF; 
 }
 
 .boton_footer:hover{
     background-color: #01F382;
     color: #fff;
     border-radius: 80px;
-
+    border-style: solid; 
+    border-color: #01F382;
 }
 
+
 .boton_footer:active{
-    background-color: #01F382;
+    background-color: #0aa85e;
+    border-color: #0aa85e;
     color: #ffff;
 }

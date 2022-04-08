@@ -56,7 +56,9 @@ main {
     border-radius: 300px;
     font-size: 61px;
     line-height: 62px;
-    align-content: center; 
+    align-content: center;
+    border-color: #424141;
+    cursor: pointer;
     }
 
     /*foot*/
@@ -100,17 +102,22 @@ p{
     padding-left: 30px;
     padding-right: 30px;
     margin-bottom: 30px;
-
+    border-style: solid;
+    background-color: #FFFFFF;
+    border-color: #FFFFFF; 
 }
 
 .boton_footer:hover{
     background-color: #01F382;
     color: #fff;
     border-radius: 80px;
-
+    border-style: solid; 
+    border-color: #01F382;
 }
+
 
 .boton_footer:active{
-    background-color: #01F382;
+    background-color: #0aa85e;
+    border-color: #0aa85e;
     color: #ffff;
-}
+}   
