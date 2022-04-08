@@ -119,9 +119,6 @@ transition: all 0.50s;
 }
 
 main img {
-    /*max-height: 100%;         IMATGE FLEXIBLE
-    max-width: 100%;
-    display: block;*/
     filter:drop-shadow(8px 8px 12px #000000);
 }
                                                                      /*OMBRA BLANCA IMATGE CENTRAL.. A MIG GAS*/
@@ -149,10 +146,14 @@ main a{
 }
 
 .mainimatge button:hover {
-    background-color: #252525;
+    background-color: #080808;
     border-color: #252525;
     border-style: solid; 
-}
+    cursor: pointer;
+    box-shadow:
+    inset 0px 0px 22px #1b1b1b,
+    0px 0px 10px #720488;
+ }
 
 .PADBIG_1 {
     z-index: 2;
@@ -286,19 +287,23 @@ p{
     border-style: solid;
     background-color: #FFFFFF;
     border-color: #FFFFFF; 
+    transition: all, 0.50s;
 }
 
 .boton_footer:hover{
-    background-color: #01F382;
+    background-color: #bb01f3;
     color: #fff;
     border-radius: 80px;
     border-style: solid; 
-    border-color: #01F382;
+    border-color: #bb01f3;
+    cursor: pointer;
+    padding-left: 40px;
+    padding-right: 40px;
 }
 
 
 .boton_footer:active{
-    background-color: #0aa85e;
-    border-color: #0aa85e;
+    background-color: #720488;
+    border-color: #720488;
     color: #ffff;
 }
