@@ -100,7 +100,7 @@ p{
     color: #fff;
     flex-direction: column;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    opacity: .5;
+    opacity: .3;
     color: #fff;
 
 }
@@ -121,7 +121,7 @@ p{
     border-style: solid;
     background-color: #FFFFFF;
     border-color: #FFFFFF; 
-    transition: all, 0.50s;
+    transition: all, 0.20s;
 }
 
 .boton_footer:hover{

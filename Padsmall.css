@@ -99,7 +99,7 @@ p{
     margin-top: -10px;
     color: #fff;
     flex-direction: column;
-    opacity: .5;
+    opacity: .3;
     color: #fff;
 
 }
@@ -120,7 +120,7 @@ p{
     border-style: solid;
     background-color: #FFFFFF;
     border-color: #FFFFFF; 
-    transition: all, 0.50s;
+    transition: all, 0.20s;
 }
 
 .boton_footer:hover{

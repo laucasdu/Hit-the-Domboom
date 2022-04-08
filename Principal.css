@@ -43,43 +43,41 @@ border-right: 1px solid white;
 }
 
 li:hover{
-    color: #01F382;
+color: #01F382;
 }
 
                                                                      /*ESTIL MAIN*/
 
 
 main{
-    color: #FFFFFF;
-    margin: 100px 5% 50px 5%;
-    display: flex;
-    justify-content: space-around;
-    align-items: flex-start;
-    height: 600px;
+color: #FFFFFF;
+margin-top: 100px;
+display: flex;
+justify-content: space-around;
+align-items: flex-start;
+height: 600px;
 }
                                                                      /*TEXT CENTRAL*/
 .maintextesquerra {
-    flex-direction: column;
-    margin-left: 60px;
-    margin-right: 30px;
+flex-direction: column;
 }
 
 .maintextmusicfor {
-    font-size: 65px;
-    font-weight: 700;
+font-size: 65px;
+font-weight: 700;
 }
 
 .maintexteveryone {
-    color: #FFFFFF;
-    font-size: 65px;
-    font-weight:700;
-    margin-top: -10px;
+color: #FFFFFF;
+font-size: 65px;
+font-weight:700;
+margin-top: -10px;
 }
 
 .maintextsmall {
-    margin-top: 20px;
-    font-size: 16px;
-    opacity: 0.3;
+margin-top: 20px;
+font-size: 16px;
+opacity: 0.3;
 }
                                                                      /*BOTÓ CENTRAL*/
 .button_hitthe {
@@ -94,41 +92,41 @@ border-color: #01F382;
 border-style: solid;
 text-decoration: none;
 margin-top: 40px;
-transition: all 0.50s;
+transition: all 0.20s;
 }
 
 .button_hitthe:hover{
-    background-color: #bb01f3;
-    border-color: #bb01f3;
-    width: 100%;
-    cursor: pointer;
+background-color: #bb01f3;
+border-color: #bb01f3;
+width: 100%;
+cursor: pointer;
 }
 
 .button_hitthe:active{
-    background-color: #720488;
-    border-color: #720488;
-    border-style:inherit;
-    transition: none;
+background-color: #720488;
+border-color: #720488;
+border-style:inherit;
+transition: none;
 }
                                                                      /*IMATGE CENTRAL*/
 .mainimatge {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+display: flex;
+align-items: center;
+justify-content: center;
 }
 
 main img {
-    filter:drop-shadow(8px 8px 12px #000000);
+filter:drop-shadow(8px 8px 12px #000000);
 }
                                                                      /*OMBRA BLANCA IMATGE CENTRAL*/
 .mainwhiteshadow {
-    background-color: #010020;
-    height: 400px;
-    width: 450px;
-    position: absolute;
-    border-radius: 50%;
-    filter:drop-shadow(0px -30px 80px #debee5);
-    z-index: -1;  
+background-color: #010020;
+height: 400px;
+width: 450px;
+position: absolute;
+border-radius: 50%;
+filter:drop-shadow(0px -30px 80px #debee5);
+z-index: -1;  
 }
 
 
@@ -136,174 +134,173 @@ main img {
 
 
 main a{
-    position: absolute;
+position: absolute;
 }
 
 .mainimatge button {
-    background-color:transparent;
-    border-color: transparent;
+background-color:transparent;
+border-color: transparent;
 }
 
 .mainimatge button:hover {
-    background-color: #000000;
-    border-color: #460253;
-    border-style: solid; 
-    cursor: pointer;
-    box-shadow:
-    inset 0px 0px 15px #720488,
-    0px 0px 15px #d5a3df;
- }
+background-color: #000000;
+border-color: #460253;
+border-style: solid; 
+cursor: pointer;
+box-shadow:
+inset 0px 0px 15px #720488,
+0px 0px 15px #d5a3df;
+}
 
 .PADBIG_1 {
-    z-index: 2;
-    display: inline-block;
-    position: absolute;
-    background-color:transparent;
-    border-color: transparent;    
-    border-radius: 50%;
-    height: 160px;
-    width: 160px;
-    margin: 15px 0 0 -269px;
+z-index: 2;
+display: inline-block;
+position: absolute;
+background-color:transparent;
+border-color: transparent;    
+border-radius: 50%;
+height: 160px;
+width: 160px;
+margin: 15px 0 0 -269px;
 }
 
 .PADBIG_2 {
-    z-index: 2;
-    position: absolute;
-    background-color:transparent;
-    border-color: transparent;
-    border-radius: 50%;
-    height: 160px;
-    width: 160px;
-    margin: -185px 0 0 -176px;
+z-index: 2;
+position: absolute;
+background-color:transparent;
+border-color: transparent;
+border-radius: 50%;
+height: 160px;
+width: 160px;
+margin: -185px 0 0 -176px;
 }
 
 .PADBIG_3 {
-    z-index: 2;
-    position:absolute;
-    background-color:transparent;
-    border-color: transparent;
-    border-radius: 50%;
-    height: 160px;
-    width: 160px;
-    margin: -185px 0 0 10px;
+z-index: 2;
+position:absolute;
+background-color:transparent;
+border-color: transparent;
+border-radius: 50%;
+height: 160px;
+width: 160px;
+margin: -185px 0 0 10px;
 }
 
 .PADBIG_4 {
-    z-index: 2;
-    position: absolute;
-    background-color:transparent;
-    border-color: transparent;
-    border-radius: 50%;
-    height: 160px;
-    width: 160px;
-    margin: 15px 0 0 105px;
+z-index: 2;
+position: absolute;
+background-color:transparent;
+border-color: transparent;
+border-radius: 50%;
+height: 160px;
+width: 160px;
+margin: 15px 0 0 105px;
 }
 
 .PADSMALL_1 {
-    z-index: 2;
-    position: absolute;
-    background-color:transparent;
-    border-color: transparent;
-    border-radius: 50%;
-    height: 115px;
-    width: 115px;
-    margin: -235px 0 0 -372px;
+z-index: 2;
+position: absolute;
+background-color:transparent;
+border-color: transparent;
+border-radius: 50%;
+height: 115px;
+width: 115px;
+margin: -235px 0 0 -372px;
 }
 
 .PADSMALL_2 {
-    z-index: 2;
-    position: absolute;
-    background-color:transparent;
-    border-color: transparent;
-    border-radius: 50%;
-    height: 115px;
-    width: 115px;
-    margin: -115px 0 0 -314px;
+z-index: 2;
+position: absolute;
+background-color:transparent;
+border-color: transparent;
+border-radius: 50%;
+height: 115px;
+width: 115px;
+margin: -115px 0 0 -314px;
 }
 
 .PADSMALL_3 {
-    z-index: 2;
-    position: absolute;
-    background-color:transparent;
-    border-color: transparent;
-    border-radius: 50%;
-    height: 115px;
-    width: 115px;
-    margin: -115px 0 0 190px;
+z-index: 2;
+position: absolute;
+background-color:transparent;
+border-color: transparent;
+border-radius: 50%;
+height: 115px;
+width: 115px;
+margin: -115px 0 0 190px;
 }
 
 .PADSMALL_4 {
-    z-index: 2;
-    position: absolute;
-    background-color:transparent;
-    border-color: transparent;
-    border-radius: 50%;
-    height: 115px;
-    width: 115px;
-    margin: -235px 0 0 252px;
+z-index: 2;
+position: absolute;
+background-color:transparent;
+border-color: transparent;
+border-radius: 50%;
+height: 115px;
+width: 115px;
+margin: -235px 0 0 252px;
 }
 
 
                                                                      /*ESTIL FOOTER*/
 
 .contenedor_footer{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
+display: flex;
+flex-direction: column;
+align-items: center;
+width: 100%;
 }
 
 h1{
-    color: #fff;
-    font-size: 30px;
+color: #fff;
+font-size: 30px;
 }
 
 p{
-    display: flex;
-    justify-content: center;
-    font-size: 18px;
-    margin-top: -10px;
-    color: #fff;
-    flex-direction: column;
-    opacity: .5;
-    color: #fff;
-
+display: flex;
+justify-content: center;
+font-size: 18px;
+margin-top: -10px;
+color: #fff;
+flex-direction: column;
+opacity: 0.3;
+color: #fff;
 }
 
 .boton_footer{
-    display: flex;
-    justify-content: center;
-    font-size: 20px;
-    margin-top: 15px;
-    padding-top: 15px;
-    flex-direction: column;
-    border-radius: 80px;
-    font-weight: bold;
-    padding-bottom: 15px;
-    padding-left: 30px;
-    padding-right: 30px;
-    margin-bottom: 30px;
-    border-style: solid;
-    background-color: #FFFFFF;
-    border-color: #FFFFFF; 
-    transition: all, 0.50s;
+display: flex;
+justify-content: center;
+font-size: 20px;
+margin-top: 15px;
+padding-top: 15px;
+flex-direction: column;
+border-radius: 80px;
+font-weight: bold;
+padding-bottom: 15px;
+padding-left: 30px;
+padding-right: 30px;
+margin-bottom: 30px;
+border-style: solid;
+background-color: #FFFFFF;
+border-color: #FFFFFF; 
+transition: all, 0.20s;
 }
 
 .boton_footer:hover{
-    background-color: #bb01f3;
-    color: #fff;
-    border-radius: 80px;
-    border-style: solid; 
-    border-color: #bb01f3;
-    cursor: pointer;
-    padding-left: 40px;
-    padding-right: 40px;
+background-color: #bb01f3;
+color: #fff;
+border-radius: 80px;
+border-style: solid; 
+border-color: #bb01f3;
+cursor: pointer;
+padding-left: 40px;
+padding-right: 40px;
 }
 
 
 .boton_footer:active{
-    background-color: #720488;
-    border-color: #720488;
-    color: #ffff;
-    transition: none;
+background-color: #720488;
+border-color: #720488;
+color: #ffff;
+transition: none;
 }
