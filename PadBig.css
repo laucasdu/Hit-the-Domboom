@@ -56,9 +56,19 @@ main {
     line-height: 62px;
     align-content: center; 
     color: #a19c9c;
-    border-color: #424141;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #555555;
     cursor: pointer;
     filter:drop-shadow(8px 8px 22px #000000);
+    }
+
+    .buttonHit:hover {
+        background-color: #222020;
+    }
+
+    .buttonHit:active {
+        background-color: rgb(27, 27, 27);
     }
 
     /*foot*/.contenedor_footer{
