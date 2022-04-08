@@ -54,11 +54,14 @@ main {
     background-color: #333131;
     padding: 16 px;
     border-radius: 300px;
-    font-size: 61px;
+    font-size: 30px;
+    color: #a19c9c;
     line-height: 62px;
     align-content: center;
     border-color: #424141;
     cursor: pointer;
+    filter:drop-shadow(8px 8px 12px #000000);
+
     }
 
     /*foot*/

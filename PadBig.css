@@ -58,6 +58,7 @@ main {
     color: #a19c9c;
     border-color: #424141;
     cursor: pointer;
+    filter:drop-shadow(8px 8px 22px #000000);
     }
 
     /*foot*/.contenedor_footer{
