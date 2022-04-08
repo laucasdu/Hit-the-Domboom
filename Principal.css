@@ -152,6 +152,15 @@ inset 0px 0px 15px #720488,
 0px 0px 15px #d5a3df;
 }
 
+.mainimatge button:active {
+background-color: #000000;
+border-color: #460253;
+border-style: solid; 
+box-shadow:
+inset 0px 0px 25px #720488,
+0px 0px 15px #d5a3df;
+}
+
 .PADBIG_1 {
 z-index: 2;
 display: inline-block;
