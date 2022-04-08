@@ -9,13 +9,17 @@ background-color: #010020;
 
                                                                      /*ESTIL HEADER*/
 
-nav
+.logo:hover{
+    cursor: pointer;
+}
+
+header
 {
-margin: 0;
 display: flex;
 justify-content: space-around;
 align-items: center;
 height: 100px;
+width: 100%;
 font-weight: bold ;
 }
 
