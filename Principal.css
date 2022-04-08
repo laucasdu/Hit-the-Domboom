@@ -13,15 +13,12 @@ background-color: #010020;
     cursor: pointer;
 }
 
-
 nav
 {
 margin: 0;
 display: flex;
 justify-content: space-around;
 align-items: center;
-padding-left: 20px;
-padding-right: 20px;
 height: 100px;
 width: 100%;
 font-weight: bold ;
@@ -39,14 +36,14 @@ a
 text-decoration: none;
 }
 
-li:hover{
-    color: #01F382;
-}
-
 .buttongreen
 {
 color: green;
 border-right: 1px solid white;
+}
+
+li:hover{
+    color: #01F382;
 }
 
                                                                      /*ESTIL MAIN*/
@@ -111,6 +108,7 @@ transition: all 0.50s;
     background-color: #720488;
     border-color: #720488;
     border-style:inherit;
+    transition: none;
 }
                                                                      /*IMATGE CENTRAL*/
 .mainimatge {
@@ -307,4 +305,5 @@ p{
     background-color: #720488;
     border-color: #720488;
     color: #ffff;
+    transition: none;
 }

@@ -15,8 +15,6 @@ margin: 0;
 display: flex;
 justify-content: space-around;
 align-items: center;
-padding-left: 20px;
-padding-right: 20px;
 height: 100px;
 font-weight: bold ;
 }
@@ -49,7 +47,7 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 550px;
+    height: 330px;
 
 }
 .buttonHit {
@@ -76,6 +74,7 @@ main {
 
 .buttonHit:active {
     background-color: rgb(27, 27, 27);
+    transition: none;
 }
 
     /*foot*/
@@ -140,4 +139,5 @@ p{
     background-color: #720488;
     border-color: #720488;
     color: #ffff;
+    transition: none;
 }
