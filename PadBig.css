@@ -39,6 +39,10 @@ color: green;
 border-right: 1px solid white;
 }
 
+li:hover{
+    color: #01F382;
+}
+
 
 /*laurap*/
 main {
@@ -62,6 +66,7 @@ main {
     border-color: #555555;
     cursor: pointer;
     filter:drop-shadow(8px 8px 22px #000000);
+    box-shadow: inset 0px 0px 20px #161616;
     transition: box-shadow, 0.5s;
     }
 

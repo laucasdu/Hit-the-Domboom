@@ -23,6 +23,7 @@ align-items: center;
 padding-left: 20px;
 padding-right: 20px;
 height: 100px;
+width: 100%;
 font-weight: bold ;
 }
 
@@ -38,6 +39,10 @@ a
 text-decoration: none;
 }
 
+li:hover{
+    color: #01F382;
+}
+
 .buttongreen
 {
 color: green;
@@ -49,8 +54,7 @@ border-right: 1px solid white;
 
 main{
     color: #FFFFFF;
-    margin: 0;
-    padding: 100px 5% 50px 5%;
+    margin: 100px 5% 50px 5%;
     display: flex;
     justify-content: space-around;
     align-items: flex-start;
@@ -151,7 +155,7 @@ main a{
     border-style: solid; 
     cursor: pointer;
     box-shadow:
-    inset 0px 0px 22px #1b1b1b,
+    inset 0px 0px 22px #0c0c0c,
     0px 0px 10px #720488;
  }
 
