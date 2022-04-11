@@ -3,24 +3,26 @@
 body
 {
 margin: 0;
+color: #FFFFFF;
 font-family: 'Lato', sans-serif;
 background-color: #010020;
 }
 
                                                                      /*ESTIL HEADER*/
 
-.logo:hover{
-    cursor: pointer;
+header {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 100px;
+    background-color: #010020;
+    align-items: center;
+    font-weight: bold ;
+
 }
 
-header
-{
-display: flex;
-justify-content: space-around;
-align-items: center;
-height: 100px;
-width: 100%;
-font-weight: bold ;
+.logo:hover{
+    cursor: pointer;
 }
 
 header li{
@@ -29,22 +31,43 @@ header li{
 }
 
 header a{
-color: white;
-padding: 5px 30px 5px 30px;
-text-decoration: none;
+    color: #FFFFFF;
 }
 
-
-.buttongreen
-{
-color: green;
-border-right: 1px solid white;
+  
+.menulist {
+    overflow: hidden;
+    background-color: #010020;
 }
 
-
-li:hover{
-color: #01F382;
+.menulist a {
+    text-align: center;
+    padding: 20px 30px 20px 30px;
+    border-radius: 0%;
+    border-width: 1px;
+    text-decoration: none;
+    font-size: 17px;
 }
+  
+.menulist a:hover {
+    background-color: #01F382;
+    color: black;
+}
+  
+.menulist a:active {
+    background-color: #7b04aa;
+    color: white;
+}
+  
+  .buttongreen{
+    color: green;
+    border-right: 1px solid white;
+    }
+    
+
+  .menulist .hamburgericon {
+    display: none;
+  }
 
 
                                                                      /*ESTIL MAIN*/
@@ -139,12 +162,6 @@ z-index: -1;
                                                                      /*PADS*/
 
 
-main a{
-position: absolute;             /*NECESSARI PEL RESPONSIVE DELS BOTONS*/
-height: 100%;
-width: 100%;
-}
-
 .mainimatge button {
 background-color:transparent;
 background-color: transparent;
@@ -172,14 +189,14 @@ inset 0px 0px 25px #720488,
 
 .PADBIG_1 {
 z-index: 1;
-display: inline-block;
 position: absolute;
 background-color:transparent;
 border-color: transparent;    
 border-radius: 50%;
-width: 20%;
-height: 28.5%;
-margin: 37% 0 0 15.5%;
+width: 19%;
+height: 27%;
+top: 54.2%;
+left: 16.2%;
 }
 
 .PADBIG_2 {
@@ -188,9 +205,10 @@ position: absolute;
 background-color:transparent;
 border-color: transparent;
 border-radius: 50%;
-width: 20%;
-height: 28.5%;
-margin: 11.2% 0 0 27.5%;
+width: 19%;
+height: 27%;
+top:17.1%;
+left: 28.1%;
 }
 
 .PADBIG_3 {
@@ -199,9 +217,10 @@ position:absolute;
 background-color:transparent;
 border-color: transparent;
 border-radius: 50%;
-width: 20%;
-height: 28.5%;
-margin: 11.2% 0 0 51.5%;
+width: 19%;
+height: 27%;
+top:17.1%;
+left: 52%;
 }
 
 .PADBIG_4 {
@@ -210,9 +229,10 @@ position: absolute;
 background-color:transparent;
 border-color: transparent;
 border-radius: 50%;
-width: 20%;
-height: 28.5%;
-margin: 37% 0 0 63.7%;
+width: 19%;
+height: 27%;
+top: 54.2%;
+left: 64.2%;
 }
 
 .PADSMALL_1 {
@@ -221,9 +241,10 @@ position: absolute;
 background-color:transparent;
 border-color: transparent;
 border-radius: 50%;
-height: 20.1%;
-width: 14.2%;
-margin: 4.7% 0 0 2.5%;
+width: 14%;
+height: 20%;
+top:7%;
+left: 2.6%;
 }
 
 .PADSMALL_2 {
@@ -232,9 +253,10 @@ position: absolute;
 background-color:transparent;
 border-color: transparent;
 border-radius: 50%;
-height: 20.1%;
-width: 14.2%;
-margin: 20.4% 0 0 10%;
+width: 14%;
+height: 20%;
+top:29.5%;
+left: 10%;
 }
 
 .PADSMALL_3 {
@@ -243,9 +265,10 @@ position: absolute;
 background-color:transparent;
 border-color: transparent;
 border-radius: 50%;
-height: 20.1%;
-width: 14.2%;
-margin: 20.4% 0 0 74.7%;
+width: 14%;
+height: 20%;
+top:29.5%;
+left: 74.8%;
 }
 
 .PADSMALL_4 {
@@ -254,9 +277,10 @@ position: absolute;
 background-color:transparent;
 border-color: transparent;
 border-radius: 50%;
-height: 20.1%;
-width: 14.2%;
-margin: 4.7% 0 0 82.4%;
+width: 14%;
+height: 20%;
+top:7%;
+left: 82.6%;
 }
 
 
@@ -336,49 +360,69 @@ transition: none;
 
 /* >>>>>>>>> RESPONSIVE <<<<<<<<< */
 
+@media screen and (max-width: 890px) {
+ 
+    .logo {
+        margin-top: 45px;
+    }
+ 
+    .menulist {
+    background-color: #162946;
+    width: 100%;
+ }
 
-.hamburgericon {       /*EN EL MENÚ - AMAGA LA ICONA DEL RESPONSIVE EN LES PANTALLES GRANS*/
-display: none;
+    .menulist a {
+    display: none;
+    padding: 14px 16px;
 }
 
-/*  MEDIA QUERIES  */
+.menulist a.hamburgericon {
+      display: block;
+      position: absolute;
+      right: 20px;
+      top: 0;
+      padding: 5px 10px 5px 40px;
+      border-radius: 45px;
+      color: #FFFFFF;
+      margin-top: 10px;
 
-@media screen and (max-width: 890px) {  /* ADAPTACIÓ A PANTALLA PETITA  */
-
-header {
-display: flex;
-flex-direction: column-reverse;
-align-items: center;
-height: auto;
-background-color: #010020;
+    }
 }
-
-nav {
-width: 100%;
-display: flex;
-flex-direction: column;
-align-items: center;
+  
+  @media screen and (max-width: 890px) {
+    
+.menulist.responsive 
+    {position: relative;
 }
+    
+.menulist.responsive .hamburgericon {
+      position: absolute;
+      right: 20px;
+      top: 0;
+    }
+    
+.menulist.responsive a {
+      display: block;
+      text-align: left;
+      padding-left: 50px;
+    }
 
-li{
-    font-size: 36px;
-}
+    header {
+        flex-direction: column-reverse;
+        height: auto;
+    }
 
-.buttongreen
-{
-color: green;
-border-right: none;
-}
+    .buttongreen {
+        color: rgb(199, 148, 233);
+        border-right: none;
+        }
+  }
 
-.hamburgericon {
-margin-top: 10px;
-position: relative;
-left: 20%;
-}
+  /* >>>>>>>>> HEADER RESPONSIVE <<<<<<<<< */ 
+  /* >>>>>>>>> MAIN I FOOTER RESPONSIVE <<<<<<<<< */
 
-.logo {
-    margin-top: 15px;
-}
+
+  @media screen and (max-width: 890px) {
 
 main {
 flex-direction: column-reverse;
@@ -419,34 +463,3 @@ display: none;
 }
 
 }
-
-@media screen and (max-width: 890px) {  /* MENÚ RESPONSIVE --> BOTÓ DESPLEGABLE  */
-
-.menulist a {
-display: none;
-}
-
-/*pantalla inferior a 870px, amaga tots els links (a:not) display none*/
-/*per posar exepció i que no s'amagui un dels links del menú: .menulist a:not(:first-child) { (o second o third..)*/
-
-.menulist a.hamburgericon {
-display: block;
-color: #FFFFFF;
-background-color: #01F382;
-border-color: #01F382; 
-border-style: solid; 
-padding: 5px 10px 5px 40px;
-border-radius: 45px;
-}
-    
-.menulist a.hamburgericon:hover{
-background-color: #bb01f3;
-border-color: #bb01f3;
-}
-    
-.menulist a.hamburgericon:active{
-background-color: #720488;
-border-color: #720488;
-}
-}
-/*mostra el link de l'icona que ha de desplegar el menú en pantalles petites, a partir de la class .icon*/

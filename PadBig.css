@@ -1,49 +1,71 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
-
 body
 {
 margin: 0;
+color: #FFFFFF;
 font-family: 'Lato', sans-serif;
 background-color: #010020;
 }
 
                                                                      /*ESTIL HEADER*/
 
+header {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 100px;
+    background-color: #010020;
+    align-items: center;
+    font-weight: bold ;
+
+}
+
 .logo:hover{
     cursor: pointer;
 }
 
-header
-{
-display: flex;
-justify-content: space-around;
-align-items: center;
-height: 100px;
-width: 100%;
-font-weight: bold ;
+header li{
+    list-style-type: none;
+    display: inline;
 }
 
-nav ul li
-{
-display: inline;
-color: white;
-padding: 30px;
+header a{
+    color: #FFFFFF;
 }
 
-a
-{
-text-decoration: none;
+  
+.menulist {
+    overflow: hidden;
+    background-color: #010020;
 }
 
-.buttongreen
-{
-color: green;
-border-right: 1px solid white;
+.menulist a {
+    text-align: center;
+    padding: 20px 30px 20px 30px;
+    border-radius: 0%;
+    border-width: 1px;
+    text-decoration: none;
+    font-size: 17px;
 }
+  
+.menulist a:hover {
+    background-color: #01F382;
+    color: black;
+}
+  
+.menulist a:active {
+    background-color: #7b04aa;
+    color: white;
+}
+  
+  .buttongreen{
+    color: green;
+    border-right: 1px solid white;
+    }
+    
 
-li:hover{
-    color: #01F382;
-}
+  .menulist .hamburgericon {
+    display: none;
+  }
 
 
 /*laurap*/
@@ -146,3 +168,71 @@ p{
     color: #ffff;
     transition: none;
 }
+
+
+
+
+
+
+/* >>>>>>>>> RESPONSIVE <<<<<<<<< */
+
+
+    
+    @media screen and (max-width: 890px) { 
+    
+ 
+    .logo {
+        margin-top: 45px;
+    }
+ 
+    .menulist {
+    background-color: #162946;
+    width: 100%;
+ }
+
+    .menulist a {
+    display: none;
+    padding: 14px 16px;
+}
+
+.menulist a.hamburgericon {
+      display: block;
+      position: absolute;
+      right: 20px;
+      top: 0;
+      padding: 5px 10px 5px 40px;
+      border-radius: 45px;
+      color: #FFFFFF;
+      margin-top: 10px;
+
+    }
+}
+  
+  @media screen and (max-width: 890px) {
+    
+.menulist.responsive 
+    {position: relative;
+}
+    
+.menulist.responsive .hamburgericon {
+      position: absolute;
+      right: 20px;
+      top: 0;
+    }
+    
+.menulist.responsive a {
+      display: block;
+      text-align: left;
+      padding-left: 50px;
+    }
+
+    header {
+        flex-direction: column-reverse;
+        height: auto;
+    }
+
+    .buttongreen {
+        color: rgb(199, 148, 233);
+        border-right: none;
+        }
+  }

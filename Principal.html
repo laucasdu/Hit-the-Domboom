@@ -11,28 +11,27 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"> <!--LLIBRERIA ICONES - HAMBURGUESA MENÚ RESPONSIVE--> 
 </head>
     
-
 <body>
-
     <header>
 
         <div class="logo">
             <a href="./Principal.html"><img class="logohome" src="./Imatges/logo.png" alt="Logo hit de Bomboom"></a>
         </div>
-
-        <nav class="menulist" id="menuresponsive"> <!--ID PEL JAVA - MENÚ RESPONSIVE-->
-                    <a href="Premium"><li>Premium</li></a>
-                    <a href="Help"><li>Help</li></a>
-                    <a href="Download"><li>Download</li></a>
-                    <a href="Sign"  class="buttongreen"><li>Sign Up</li></a>
-                    <a href="Log"><li>Log In</li></a>
-
-                    <a href="javascript:void(0);" class="hamburgericon" onclick="myFunction()"> 
-                    <i class="fa-solid fa-bars"></i></a>  <!--ICONA HAMBURGUESA - MENÚ RESPONSIVE--> 
-                    <!--CLASS PER MOSTRAR I AMAGAR MENÚ EN PANTALLES PETITES. ONCLICK PER FUNCIÓ JAVA MENÚ RESPONSIVE--> 
-        </nav>
-
-	</header>
+    
+    <nav class="menulist" id="menuresponsive">
+        <a href="Premium"><li>Premium</li></a>
+        <a href="Help"><li>Help</li></a>
+        <a href="Download"><li>Download</li></a>
+        <a href="Sign" class="buttongreen"><li><span>Sign Up</span></li></a>
+        <a href="Log"><li>Log In</li></a>
+      
+      <a href="javascript:void(0);" class="hamburgericon" onclick="myFunction()"> 
+        <i class="fa-solid fa-bars"></i></a>  <!--ICONA HAMBURGUESA - MENÚ RESPONSIVE--> 
+        <!--CLASS PER MOSTRAR I AMAGAR MENÚ EN PANTALLES PETITES. ONCLICK PER FUNCIÓ JAVA MENÚ RESPONSIVE--> 
+      </a>
+    </nav>
+    
+    </header>
                                         <!--MAIN TEXT-->
 
 	<main>
@@ -52,7 +51,7 @@
             </div>
 
             <div class="mainbutton">
-                <button class="button_hitthe">Hit the</button>
+                <a href="./PadBig.html"><button class="button_hitthe">Hit the</button></a>
             </div>
 
         </div>
@@ -61,18 +60,40 @@
         <div class="mainimatge">
             <img src="./Imatges/drumkit.png" alt="Batería electrónica">
 
-                                        <!--LINKS BOTONS-->
+                                        <!--BOTONS BATERIA-->
         
+            <button class="PADBIG_1" onclick="playBombo()" type="button"></button>
+            <audio id="bombo" src="./Sounds/bombo (1).wav"> Uuuups! Something doesn't work... This browser may not support the audio element </audio> 
 
-            <a href="./PadBig_1.html"><button class="PADBIG_1"></button></a>
-            <a href="./PadBig_2.html"><button class="PADBIG_2"></button></a>
-            <a href="./PadBig_3.html"><button class="PADBIG_3"></button></a>
-            <a href="./PadBig_4.html"><button class="PADBIG_4"></button></a>
 
-            <a href="./PADSMALL_1.html"><button class="PADSMALL_1"></button></a>
-            <a href="./PADSMALL_2.html"><button class="PADSMALL_2"></button></a>
-            <a href="./PADSMALL_3.html"><button class="PADSMALL_3"></button></a>
-            <a href="./PADSMALL_4.html"><button class="PADSMALL_4"></button></a>
+            <button class="PADBIG_2" onclick="playTom4()" type="button"></button>
+            <audio id="tom4" src="./Sounds/tom4.wav"> Uuuups! Something doesn't work... This browser may not support the audio element </audio> 
+
+
+            <button class="PADBIG_3" onclick="playTom3()" type="button"></button>
+            <audio id="tom3" src="./Sounds/tom3.wav"> Uuuups! Something doesn't work... This browser may not support the audio element </audio> 
+
+
+            <button class="PADBIG_4" onclick="playTom2()" type="button"></button>
+            <audio id="tom2" src="./Sounds/tom2.wav"> Uuuups! Something doesn't work... This browser may not support the audio element </audio> 
+
+
+
+            <button class="PADSMALL_1" onclick="playTom1()" type="button"></button>
+            <audio id="tom1" src="./Sounds/tom1.wav"> Uuuups! Something doesn't work... This browser may not support the audio element </audio> 
+
+
+            <button class="PADSMALL_2" onclick="playRedoblante()" type="button"></button>
+            <audio id="redoblante" src="./Sounds/redoblante.wav"> Uuuups! Something doesn't work... This browser may not support the audio element </audio> 
+
+
+            <button class="PADSMALL_3" onclick="playHithat()" type="button"></button>
+            <audio id="hithat" src="./Sounds/hit-hat.wav"> Uuuups! Something doesn't work... This browser may not support the audio element </audio> 
+
+            
+            <button class="PADSMALL_4" onclick="playCrash()" type="button"></button>
+            <audio id="crash" src="./Sounds/crash.wav"> Uuuups! Something doesn't work... This browser may not support the audio element </audio> 
+
 
             <div class="mainwhiteshadow"></div>
 
