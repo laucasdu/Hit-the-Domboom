@@ -343,7 +343,7 @@ display: none;
 
 /*  MEDIA QUERIES  */
 
-@media screen and (max-width: 870px) {  /* ADAPTACIÓ A PANTALLA PETITA  */
+@media screen and (max-width: 890px) {  /* ADAPTACIÓ A PANTALLA PETITA  */
 
 header {
 display: flex;
@@ -420,7 +420,7 @@ display: none;
 
 }
 
-@media screen and (max-width: 870px) {  /* MENÚ RESPONSIVE --> BOTÓ DESPLEGABLE  */
+@media screen and (max-width: 890px) {  /* MENÚ RESPONSIVE --> BOTÓ DESPLEGABLE  */
 
 .menulist a {
 display: none;
