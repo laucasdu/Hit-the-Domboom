@@ -8,6 +8,7 @@
 	<title>Hit the Bomboom</title>
 	<link rel="stylesheet" href="./Principal.css">
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"> <!--LLIBRERIA ICONES - HAMBURGUESA MENÚ RESPONSIVE--> 
 </head>
     
 
@@ -19,16 +20,16 @@
             <a href="./Principal.html"><img class="logohome" src="./Imatges/logo.png" alt="Logo hit de Bomboom"></a>
         </div>
 
-        <nav>    
-            <div class="menulist">
-                <ul>
+        <nav class="menulist" id="menuresponsive"> <!--ID PEL JAVA - MENÚ RESPONSIVE-->
                     <a href="Premium"><li>Premium</li></a>
                     <a href="Help"><li>Help</li></a>
                     <a href="Download"><li>Download</li></a>
-                    <a href="Sign"><li class="buttongreen">Sign Up</li></a>
+                    <a href="Sign"  class="buttongreen"><li>Sign Up</li></a>
                     <a href="Log"><li>Log In</li></a>
-                </ul>
-            </div>
+
+                    <a href="javascript:void(0);" class="hamburgericon" onclick="myFunction()"> 
+                    <i class="fa-solid fa-bars"></i></a>  <!--ICONA HAMBURGUESA - MENÚ RESPONSIVE--> 
+                    <!--CLASS PER MOSTRAR I AMAGAR MENÚ EN PANTALLES PETITES. ONCLICK PER FUNCIÓ JAVA MENÚ RESPONSIVE--> 
         </nav>
 
 	</header>
@@ -58,8 +59,7 @@
                                         <!--MAIN IMATGE-->
 
         <div class="mainimatge">
-            <img src="./Imatges/drumkit.png" alt="Imagen de un drumkit">
-            <div class="mainwhiteshadow"></div>
+            <img src="./Imatges/drumkit.png" alt="Batería electrónica">
 
                                         <!--LINKS BOTONS-->
         
@@ -73,8 +73,8 @@
             <a href="./PADSMALL_2.html"><button class="PADSMALL_2"></button></a>
             <a href="./PADSMALL_3.html"><button class="PADSMALL_3"></button></a>
             <a href="./PADSMALL_4.html"><button class="PADSMALL_4"></button></a>
-            <script src="drumKit.js"></script> 
 
+            <div class="mainwhiteshadow"></div>
 
         </div>
 
@@ -91,6 +91,9 @@
 
         </div>
 	</footer>
+
+    <script src="./MenuResponsive.js"></script>
+    <script src="./Sounds.js"></script>
 
 </body>
 

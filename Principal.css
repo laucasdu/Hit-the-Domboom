@@ -23,17 +23,17 @@ width: 100%;
 font-weight: bold ;
 }
 
-nav ul li
-{
-display: inline;
-color: white;
-padding: 30px;
+header li{
+    list-style-type: none;
+    display: inline;
 }
 
-a
-{
+header a{
+color: white;
+padding: 5px 30px 5px 30px;
 text-decoration: none;
 }
+
 
 .buttongreen
 {
@@ -41,9 +41,11 @@ color: green;
 border-right: 1px solid white;
 }
 
+
 li:hover{
 color: #01F382;
 }
+
 
                                                                      /*ESTIL MAIN*/
 
@@ -106,7 +108,6 @@ cursor: pointer;
 .button_hitthe:active{
 background-color: #720488;
 border-color: #720488;
-border-style:inherit;
 transition: none;
 }
                                                                      /*IMATGE CENTRAL*/
@@ -321,3 +322,131 @@ border-color: #720488;
 color: #ffff;
 transition: none;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+/* >>>>>>>>> RESPONSIVE <<<<<<<<< */
+
+
+.hamburgericon {       /*EN EL MENÚ - AMAGA LA ICONA DEL RESPONSIVE EN LES PANTALLES GRANS*/
+display: none;
+}
+
+/*  MEDIA QUERIES  */
+
+@media screen and (max-width: 870px) {  /* ADAPTACIÓ A PANTALLA PETITA  */
+
+header {
+display: flex;
+flex-direction: column-reverse;
+align-items: center;
+height: auto;
+background-color: #010020;
+}
+
+nav {
+width: 100%;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+li{
+    font-size: 36px;
+}
+
+.buttongreen
+{
+color: green;
+border-right: none;
+}
+
+.hamburgericon {
+margin-top: 10px;
+position: relative;
+left: 20%;
+}
+
+.logo {
+    margin-top: 15px;
+}
+
+main {
+flex-direction: column-reverse;
+margin-top: 30px;
+}
+
+.maintextesquerra {
+margin: 2% auto 10% auto;
+font-size: 16px;
+}
+
+.button_hitthe {
+width: 150px;
+height: 40px;
+}
+    
+.button_hitthe:hover{
+width: 150px;
+}
+
+main img {
+min-width: 300px;
+filter:none;
+}
+
+.mainwhiteshadow{
+display: none;
+}
+
+.mainimatge {
+max-width: 60%;
+margin: auto;
+min-width: 300px;
+}
+
+footer {
+display: none;
+}
+
+}
+
+@media screen and (max-width: 870px) {  /* MENÚ RESPONSIVE --> BOTÓ DESPLEGABLE  */
+
+.menulist a {
+display: none;
+}
+
+/*pantalla inferior a 870px, amaga tots els links (a:not) display none*/
+/*per posar exepció i que no s'amagui un dels links del menú: .menulist a:not(:first-child) { (o second o third..)*/
+
+.menulist a.hamburgericon {
+display: block;
+color: #FFFFFF;
+background-color: #01F382;
+border-color: #01F382; 
+border-style: solid; 
+padding: 5px 10px 5px 40px;
+border-radius: 45px;
+}
+    
+.menulist a.hamburgericon:hover{
+background-color: #bb01f3;
+border-color: #bb01f3;
+}
+    
+.menulist a.hamburgericon:active{
+background-color: #720488;
+border-color: #720488;
+}
+}
+/*mostra el link de l'icona que ha de desplegar el menú en pantalles petites, a partir de la class .icon*/
