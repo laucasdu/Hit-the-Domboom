@@ -206,6 +206,16 @@ p{
       margin-top: 10px;
 
     }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 12px;
+        padding-top: 5px;
+    }
+
 }
   
   @media screen and (max-width: 890px) {
@@ -232,7 +242,7 @@ p{
     }
 
     .buttongreen {
-        color: rgb(199, 148, 233);
+        color: rgb(233, 148, 148);
         border-right: none;
         }
   }
