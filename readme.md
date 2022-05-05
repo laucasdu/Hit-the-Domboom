@@ -1,4 +1,4 @@
-# TO DO LIST APP
+# HIT THE DOMBOOM
 
 ## 📜 RESUM
 Pàgina web adaptable a diferents tipus de pantalla i amb dues funcionalitats creades amb JavaScript: 
