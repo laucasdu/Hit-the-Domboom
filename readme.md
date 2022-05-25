@@ -1,38 +1,59 @@
-# HIT THE DOMBOOM
+TO DO LIST APP
+============
 
-## 📜 RESUM
-Pàgina web adaptable a diferents tipus de pantalla i amb dues funcionalitats creades amb JavaScript: 
-1 Reproduir un fitxer d'àudio al apretar sobre un botó.
-2 La barra de navegació canvia de format segons la mida de la pantalla.
-Ha sigut un treball en equip..
+## Table of Contents
+1. [Description](#description)
+2. [Objectives](#objectives)
+3. [Technologies](#technologies)
+4. [Techniques used](#techniques-used)
 
-## 💻 TECNOLOGIES
+***
+
+## Link
+
+[)
+
+
+## Description 
+This is an application that allows you to hit de dombo and preview its sounds.
+
+## Objectives
+- Responsive website
+- Two JavasCript functions: 
+Plays sounds when a button is clicked.
+The navigation bar can change format according to the opening of the screen.
+Use the mediaqueries
+
+## UI Design
+
+###### PC
+![Principal](/Imatges/Screenshot%20PC.png "Principal")
+
+###### Mòbil
+![Principal](/Imatges/Screenshot%20mobile.png "Principal")
+![Menú responsive](/Imatges/Screenshot%20menu.png "Menú responsive")
+
+## Technologies
 - HTML 5
 - CSS 3
 - JS ES6  VANILLA
 
-## ⚙️ TÈCNIQUES EMPRADES
-- Responsive Design.
-- Variables CSS.
-
-## 🔗 ENLLAÇ
-[xcapde.github.io/Hit-the-Domboom/ ](https://xcapde.github.io/Hit-the-Domboom// "xcapde.github.io/Hit-the-Domboom/")
-
-## ✅ OBJECTIUS
-- Pàgina adaptable tant a dispositius mòbils com a pantalles d'ordinadors.
-- Botons en posició absoluta damunt d'una imatge adatpable.
-- Funcionalitats en JS com la reproducció d'àudio i el menú responsive.
-- Ús de media queries per l'adaptabilitat de l'estructura.
-
-## 👁️‍🗨️ CAPTURES DE PANTALLA
-
-###### PC
-![Principal](/Imatges/Screenshot%20PC.png "Principal")
-###### Mòbil
-
-![Principal](/Imatges/Screenshot%20mobile.png "Principal")
-![Menú responsive](/Imatges/Screenshot%20menu.png "Menú responsive")
+## Team
+- Laura Parra
+- Jorge Andrés
+- Xavier 
 
 
-## AGRAÏMENTS
-Aquesta aplicació no hauria sigut possible sense l'ajuda i la paciència dels companys del meu equip i del nostre formador del Bootcamp, així com els creadors del material didàctic web consultat.
+
+
+
+
+
+
+
+
+
+
+
+
+
