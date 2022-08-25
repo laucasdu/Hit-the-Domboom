@@ -74,16 +74,3 @@ npm install
 
 
 
-
-## 📜 RESUM
-Pàgina web adaptable a diferents tipus de pantalla i amb dues funcionalitats creades amb JavaScript: 
-1 Reproduir un fitxer d'àudio al apretar sobre un botó.
-2 La barra de navegació canvia de format segons la mida de la pantalla.
-Ha sigut un treball en equip..
-
-
-## ✅ OBJECTIUS
-- Pàgina responsive, adaptable tant a dispositius mòbils com a pantalles d'ordinadors.
-- Funcionalitats en JS com la reproducció d'àudio i el menú responsive.
-- Reproduir un fitxer d'àudio al apretar sobre un botó.
-
